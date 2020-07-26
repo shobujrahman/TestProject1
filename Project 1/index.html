@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    
+    <title>Prohor's Gym</title>
+    <style>
+        body {
+            color: tomato;
+            margin: 0px;
+            padding: 0px;
+            background-image: url("img/b2.jpg");
+            font-family: 'Ubuntu', sans-serif;
+
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: 20px;
+            /* border: 2px solid red; */
+
+        }
+
+        .left img {
+            width: 86px;
+            filter: invert(100%);
+        }
+
+        .left div {
+            font-size: 12px;
+            text-align: center;
+        }
+
+        .mid {
+            display: block;
+            width: 37%;
+            margin: 35px auto;
+            /* border: 2px solid green; */
+
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 53px;
+            display: inline-block;
+            /* border: 2px solid blue; */
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            font-size: 15px;
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: tomato;
+            text-decoration: none;
+            padding: 24px 13px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            color: rgb(175, 230, 207);
+            text-decoration: underline;
+
+        }
+
+        .btn {
+            margin: 0px 9px;
+            background-color: black;
+            color: tomato;
+            padding: 3px 13px;
+            border-radius: 10px;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 11px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(182, 169, 169);
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 127px 34px;
+            padding: 30px 20px;
+            width: 30%;
+            border-radius: 10px;
+        }
+
+        .form-group input {
+            text-align: center;
+            display: block;
+            width: 310px;
+            padding: 3px;
+            border: 2px solid black;
+            border-radius: 20px;
+            margin: 10px auto;
+            font-size: 18px;
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .container h2 {
+            text-align: center;
+            color: tomato;
+        }
+
+        .container button {
+            display: block;
+            width: 310px;
+            margin: 20px auto;
+            padding: 7px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/Logo.jpg" alt="">
+            <div>Prohor Fitness</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active"> Home </a></li>
+                <li><a href="pages/aboutus.html"> About Us</a></li>
+                <li><a href="pages/contactUs.html"> Fitness Calculator</a></li>
+                <li><a href="pages/fitnessCalculator.html"> Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn"> Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Register Now</h2>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your locality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

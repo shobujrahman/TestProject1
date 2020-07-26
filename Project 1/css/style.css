@@ -1,0 +1,78 @@
+/* body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("img/b2.jpg");
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    border: 2px solid red;
+    
+}
+.left img{
+    width:95px;
+    filter: invert(100%);
+}
+.left div{
+    font-size: 12px;
+    text-align: center;
+}
+
+.mid {
+    display: block;
+   width: 37%;
+   margin: 20px auto;
+    border: 2px solid green;
+    
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    border: 2px solid blue;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+font-size: 15px;
+    display: inline-block;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 24px 13px;
+}
+.navbar li a:hover, .navbar li a.active{
+    color: rgb(175, 230, 207);
+    text-decoration: underline;
+    
+}
+.btn{
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding:3px 13px;
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 11px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(182, 169, 169);
+}
+ */
+
+
+ 
+        
